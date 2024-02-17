@@ -11,10 +11,9 @@ page-layout: full
 title-block-banner: false
 ---
 
-Blog dedicado a encontrar <br/> 
-e investigar con leve profundidad las dinámicas <br/> 
-de eventos, aparentemente futiles, pero que guardan<br/>
-algún modesto sentido oculto.<br/>
+Blog dedicado a desentrañar la modesta verdad oculta <br/> 
+de las cosas que nos rodean. Puede ser fome, pero prefiero saber.<br/>
+Tal como pedirse una pizza sin pepperoni.<br/>
 <br/>
 <br/>
 <br/>
