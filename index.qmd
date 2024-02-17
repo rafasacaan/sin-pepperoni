@@ -1,4 +1,5 @@
 ---
+text: "sin pepperoni"
 listing:
   contents: posts
   sort: "date desc"
@@ -9,3 +10,13 @@ listing:
 page-layout: full
 title-block-banner: false
 ---
+
+Blog dedicado a encontrar <br/> 
+e investigar con leve profundidad las dinámicas <br/> 
+de eventos, aparentemente futiles, pero que guardan<br/>
+algún modesto sentido oculto.<br/>
+<br/>
+<br/>
+<br/>
+
+

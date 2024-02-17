@@ -1,6 +1,21 @@
 /* css styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
+
+.navbar-brand{
+  font-family: "Fira Mono";
+}
+
+main p {
+  font-family: Fira Mono;
+}
+
+.navbar {
+  border: none;
+}
+
 body {
-  font-family: Monospace;
+  font-family: Fira Mono;
   font-size: 15px;
 }
 
