@@ -10,6 +10,12 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/rafasacaan
+  page-footer:
+    center:
+      - text: "by rafa sacaan"
+    border: true
+  
+
 
 format:
   html:
