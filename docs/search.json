@@ -11,27 +11,27 @@
     "href": "posts/welcome/index.html",
     "title": "Welcome to the blog",
     "section": "",
-    "text": "This is the first test post. Welcome!\n\n\ndasdnkadnkncx nksac as\n\n\n\nasdlsadnlaskdnsaldnlsakndlksadnlak"
+    "text": "Welcome to my blog and i hope to have a running version soon."
   },
   {
     "objectID": "posts/welcome/index.html#more-things-to-do",
     "href": "posts/welcome/index.html#more-things-to-do",
     "title": "Welcome to the blog",
-    "section": "",
-    "text": "dasdnkadnkncx nksac as"
+    "section": "More things to do",
+    "text": "More things to do\nIt ain’t no use to sit and wonder why, babe If’n you don’t know by now And it ain’t no use to sit and wonder why, babe It’ll never do somehow When your rooster crows at the break of dawn Look out your window and I’ll be gone You’re the reason I’m a-traveling on But don’t think twice, it’s all right\n\ndef add(a,b):\n    return a + b\n\nadd(2,3)\n\n5"
   },
   {
     "objectID": "posts/welcome/index.html#and-yet-more",
     "href": "posts/welcome/index.html#and-yet-more",
     "title": "Welcome to the blog",
-    "section": "",
-    "text": "asdlsadnlaskdnsaldnlsakndlksadnlak"
+    "section": "And yet more",
+    "text": "And yet more\nIt ain’t no use to sit and wonder why, babe If’n you don’t know by now And it ain’t no use to sit and wonder why, babe It’ll never do somehow When your rooster crows at the break of dawn Look out your window and I’ll be gone You’re the reason I’m a-traveling on But don’t think twice, it’s all right"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "sin pepperoni",
     "section": "",
-    "text": "Hello! 👋\nExploring curiosity is like ordering a pizza without pepperoni —it’s about embracing different flavors and trying new things.\nJust as a pizza without pepperoni opens up a world of possibilities, staying curious opens doors to endless discoveries and adventures.\n\n[Work in progress!]   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 7, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "[Work in progress!]\nExploring curiosity is like ordering a pizza without pepperoni —it’s about embracing different flavors and trying new things.\nJust as a pizza without pepperoni opens up a world of possibilities, staying curious opens doors to endless discoveries and adventures.\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 7, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   }
 ]

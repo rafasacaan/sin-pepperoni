@@ -11,7 +11,8 @@ listing:
 page-layout: full
 title-block-banner: false
 ---
-Hello! 👋
+
+**[Work in progress!]**
 
 Exploring curiosity is like ordering a pizza without pepperoni —it’s about embracing different flavors and trying new things.
 
@@ -19,7 +20,6 @@ Just as a pizza without pepperoni opens up a world of possibilities, staying cur
 
 <img src="download.png" alt="sin-pepperoni" width="30">
 
-**[Work in progress!]**
 <br/>
 <br/>
 <br/>

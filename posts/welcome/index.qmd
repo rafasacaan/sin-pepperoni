@@ -7,14 +7,45 @@ draft: false
 page-navigation: true
 ---
 
+Welcome to my blog and i hope to have a running version soon.
 
 # We need a title
 
-This is the first test post. Welcome!
+It ain't no use to sit and wonder why, babe
+If'n you don't know by now
+And it ain't no use to sit and wonder why, babe
+It'll never do somehow
+When your rooster crows at the break of dawn
+Look out your window and I'll be gone
+You're the reason I'm a-traveling on
+But don't think twice, it's all right
 
 ## More things to do
-dasdnkadnkncx
-nksac as
+
+It ain't no use to sit and wonder why, babe
+If'n you don't know by now
+And it ain't no use to sit and wonder why, babe
+It'll never do somehow
+When your rooster crows at the break of dawn
+Look out your window and I'll be gone
+You're the reason I'm a-traveling on
+But don't think twice, it's all right
+
+```{python}
+def add(a,b):
+    return a + b
+
+add(2,3)
+```
+
 
 ## And yet more
-asdlsadnlaskdnsaldnlsakndlksadnlak
+It ain't no use to sit and wonder why, babe
+If'n you don't know by now
+And it ain't no use to sit and wonder why, babe
+It'll never do somehow
+When your rooster crows at the break of dawn
+Look out your window and I'll be gone
+You're the reason I'm a-traveling on
+But don't think twice, it's all right
+
