@@ -1,0 +1,20 @@
+---
+title: "Welcome to the blog"
+author: "rafa sacaan"
+date: "2024-02-07"
+categories: [news]
+draft: false
+page-navigation: true
+---
+
+
+# We need a title
+
+This is the first test post. Welcome!
+
+## More things to do
+dasdnkadnkncx
+nksac as
+
+## And yet more
+asdlsadnlaskdnsaldnlsakndlksadnlak

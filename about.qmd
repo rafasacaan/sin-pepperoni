@@ -1,0 +1,23 @@
+---
+title: "about"
+image: "yo.jpeg"
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rafaelsacaanamunategui/
+    - icon: github
+      text: Github
+      href: https://github.com/rafasacaan
+---
+
+Hello, my name is Rafa, and this is the sin-pepperoni blog.
+
+I started off as an electrical engineer, then deep-dived into math and optimization to tackle questions about electrical power systems, and eventually earned an MSc in operations research and data science.
+
+Since then, I've been collaborating as a data scientist, putting questions at the heart of my work, and leveraging the toolbox I've gathered along my journey to answer them.
+
+Feel free to connect and thank you for reading!
+
+

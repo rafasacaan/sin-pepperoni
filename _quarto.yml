@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "sin pepperoni"
+  navbar:
+    logo: download.png
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/rafasacaan
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    page-layout: full
+    mainfont: system-ui
+editor: visual
+
+resources:
+  - CNAME
+

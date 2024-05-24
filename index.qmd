@@ -1,0 +1,27 @@
+---
+text: "sin pepperoni"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [image, title, description, date, reading-time, categories]
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+Hello! 👋
+
+Exploring curiosity is like ordering a pizza without pepperoni —it’s about embracing different flavors and trying new things.
+
+Just as a pizza without pepperoni opens up a world of possibilities, staying curious opens doors to endless discoveries and adventures.
+
+<img src="download.png" alt="sin-pepperoni" width="30">
+
+**[Work in progress!]**
+<br/>
+<br/>
+<br/>
+
+
