@@ -1,0 +1,12 @@
+{
+  "hash": "efe76407c213c889ac09ae71e0f9758e",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"QR codes rule\"\nauthor: \"rafa sacaan\"\ndate: \"2024-05-25\"\ncategories: [TIL]\ndraft: true\npage-navigation: true\n---\n\nQR codes can hold up to 7,089 characters\n\n# I. Generate QR codes\n\nLet´s jump into it right away using the `qrcode[pil]` library.\n\n::: {#1fe4fa63 .cell execution_count=1}\n``` {.python .cell-code}\nimport qrcode\nimport matplotlib.pylab as plt\n\nimg = qrcode.make(\"\"\"\nIt ain't no use to sit and wonder why, babe\nIf'n you don't know by now\nAnd it ain't no use to sit and wonder why, babe\nIt'll never do somehow\nWhen your rooster crows at the break of dawn\nLook out your window and I'll be gone\nYou're the reason I'm a-traveling on\nBut don't think twice, it's all right\"\"\"\n)\n\n# Save as png\nimg.save(\"dylan_qr.png\")\n\n# Plot\nplt.imshow(img);\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=424 height=416}\n:::\n:::\n\n\nThe message can be decoded using `cv2` library.\n\n::: {#9e59f6ba .cell execution_count=2}\n``` {.python .cell-code}\nimport cv2\n\n# read the QRCODE image\nimg = cv2.imread(\"dylan_qr.png\")\n\ndetector = cv2.QRCodeDetector()\ndata, bbox, straight_qrcode = detector.detectAndDecode(img)\n```\n:::\n\n\nThe decoded message is:\n\n::: {#cb6712f0 .cell execution_count=3}\n``` {.python .cell-code}\nprint(data)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n\nIt ain't no use to sit and wonder why, babe\nIf'n you don't know by now\nAnd it ain't no use to sit and wonder why, babe\nIt'll never do somehow\nWhen your rooster crows at the break of dawn\nLook out your window and I'll be gone\nYou're the reason I'm a-traveling on\nBut don't think twice, it's all right\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
