@@ -14,9 +14,10 @@ title-block-banner: false
 
 **[Work in progress!]**
 
-Exploring curiosity is like ordering a pizza without pepperoni —it’s about embracing different flavors and trying new things.
+I am a data scientist that has lost its way, revisiting the fundamentals to find how data can really help us make better decisions, and navigate
+this times of uncertainty and noise. 
 
-Just as a pizza without pepperoni opens up a world of possibilities, staying curious opens doors to endless discoveries and adventures.
+No pepperoni for my pizza, please.
 
 <img src="download.png" alt="sin-pepperoni" width="30">
 

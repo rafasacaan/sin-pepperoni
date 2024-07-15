@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.542">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -181,8 +181,8 @@ window.Quarto = {
 
 
 <p><strong>[Work in progress!]</strong></p>
-<p>Exploring curiosity is like ordering a pizza without pepperoni —it’s about embracing different flavors and trying new things.</p>
-<p>Just as a pizza without pepperoni opens up a world of possibilities, staying curious opens doors to endless discoveries and adventures.</p>
+<p>I am a data scientist that has lost its way, revisiting the fundamentals to find how data can really help us make better decisions, and navigate this times of uncertainty and noise.</p>
+<p>No pepperoni for my pizza, please.</p>
 <p><img src="download.png" alt="sin-pepperoni" width="30"></p>
 <p><br> <br> <br></p>
 
@@ -191,7 +191,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news" data-listing-date-sort="1707274800000" data-listing-file-modified-sort="1716608760030" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
+<div class="quarto-post image-right" data-index="0" data-categories="news" data-listing-date-sort="1707274800000" data-listing-file-modified-sort="1721079314179" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
 <div class="thumbnail">
 <p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -390,7 +390,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      return note.innerHTML;
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
