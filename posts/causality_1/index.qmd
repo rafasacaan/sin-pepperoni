@@ -1,0 +1,55 @@
+---
+title: "Causality with potential outcomes"
+author: "rafa sacaan"
+date: "2024-07-16"
+categories: [econometrics]
+draft: false
+page-navigation: true
+jupyter: ml
+---
+
+Taken from  [aeaweb.org](https://aeaweb.org).
+
+# I. The fundamental problem
+
+The `treamtment effect` or causal effect of the treatment on the outcome for unit $i$ is the difference between its two potential outcomes:
+
+$$\text{treatment effect} = Y_{1i} - Y_{0i}$$
+
+
+The problem is that for no individual we are going to observe both potential outcomes! One is always going to be counterfactual. This is the `fundamental problem of causal inference`, we can only observe $Y_{0}$ or $Y_{1}$.
+
+\begin{align}
+    Y_{i} = \left\{
+    \begin{array}{cl}
+    Y_{0i} & D_{i} = 0 \\
+    Y_{1i} & D_{i} = 1.
+    \end{array}
+    \right.
+\end{align}
+
+But, for this last statement to survive, we need to make some `strong assumptions`.
+
+- Potential outcomes for unit $i$ are unaffected by treatment of unit $j$
+- Rules out intereference across units
+
+As this assumptions are problematic, we should `choose our units of analysis` in such way that interference is minimum.
+
+
+Having defined the setup, we might be interested in estimating the following quantities:
+
+**Average treatment effect (ATE)**
+
+$\alpha_{ATE} = E[Y_{1} - Y_{0}]$
+
+**Conditional Average treatment effect (CATE) or ATE on the treated (ATET)**
+
+$\alpha_{CATE} = E[Y_{1} - Y_{0}| D = 1]$
+
+
+# 2. Regression replaces randomization!
+
+We can´t always run RCT´s. Regression, on the counterside, are cheaper and faster. Yet, can regression really be causal?
+
+
+

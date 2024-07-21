@@ -22,7 +22,8 @@ format:
     theme: litera
     css: styles.css
     page-layout: full
-    mainfont: system-ui
+    mainfont: serif
+    fontsize: 1.0em
 editor: visual
 
 resources:

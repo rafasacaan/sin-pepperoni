@@ -14,7 +14,7 @@ title-block-banner: false
 
 **[Work in progress!]**
 
-I am a data scientist that has lost its way, revisiting the fundamentals to find how data can really help us make better decisions, and navigate
+I am a recovering data scientist starting the journey to revisit the fundamentals to find how data can really help us make better decisions, and navigate
 this times of uncertainty and noise. 
 
 No pepperoni for my pizza, please.

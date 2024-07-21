@@ -32,6 +32,13 @@
     "href": "index.html",
     "title": "sin pepperoni",
     "section": "",
-    "text": "[Work in progress!]\nI am a data scientist that has lost its way, revisiting the fundamentals to find how data can really help us make better decisions, and navigate this times of uncertainty and noise.\nNo pepperoni for my pizza, please.\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 7, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "[Work in progress!]\nI am a recovering data scientist starting the journey to revisit the fundamentals to find how data can really help us make better decisions, and navigate this times of uncertainty and noise.\nNo pepperoni for my pizza, please.\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCausality with potential outcomes\n\n\n\n\n\n\neconometrics\n\n\n\n\n\n\n\n\n\nJul 16, 2024\n\n\n2 min\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 7, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/causality_1/index.html",
+    "href": "posts/causality_1/index.html",
+    "title": "Causality with potential outcomes",
+    "section": "",
+    "text": "Taken from aeaweb.org.\n\nI. The fundamental problem\nThe treamtment effect or causal effect of the treatment on the outcome for unit \\(i\\) is the difference between its two potential outcomes:\n\\[\\text{treatment effect} = Y_{1i} - Y_{0i}\\]\nThe problem is that for no individual we are going to observe both potential outcomes! One is always going to be counterfactual. This is the fundamental problem of causal inference, we can only observe \\(Y_{0}\\) or \\(Y_{1}\\).\n\\[\\begin{align}\n    Y_{i} = \\left\\{\n    \\begin{array}{cl}\n    Y_{0i} & D_{i} = 0 \\\\\n    Y_{1i} & D_{i} = 1.\n    \\end{array}\n    \\right.\n\\end{align}\\]\nBut, for this last statement to survive, we need to make some strong assumptions.\n\nPotential outcomes for unit \\(i\\) are unaffected by treatment of unit \\(j\\)\nRules out intereference across units\n\nAs this assumptions are problematic, we should choose our units of analysis in such way that interference is minimum.\nHaving defined the setup, we might be interested in estimating the following quantities:\nAverage treatment effect (ATE)\n\\(\\alpha_{ATE} = E[Y_{1} - Y_{0}]\\)\nConditional Average treatment effect (CATE) or ATE on the treated (ATET)\n\\(\\alpha_{CATE} = E[Y_{1} - Y_{0}| D = 1]\\)\n\n\n2. Regression replaces randomization!\nWe can´t always run RCT´s. Regression, on the counterside, are cheaper and faster. Yet, can regression really be causal?"
   }
 ]
