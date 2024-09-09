@@ -1,28 +1,27 @@
 ---
-text: "sin pepperoni"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  fields: [image, title, description, date, reading-time, categories]
-  categories: true
-  sort-ui: false
-  filter-ui: false
 page-layout: full
 title-block-banner: false
 ---
 
-**[Work in progress!]**
+::: {.column width="40%"}
+# sin pepperoni
+Soy un data scientist en rehabilitación, revisitando cómo los datos nos pueden ayudar a tomar mejores decisiones, y navegar estos tiempos de incertidumbre y ruido.
+Sin pepperoni mi pizza, porfa.
 
-I am a recovering data scientist starting the journey to revisit the fundamentals to find how data can really help us make better decisions, and navigate
-this times of uncertainty and noise. 
+Puedes escribirme [acá](mailto:rafasacaan@gmail.com).
+:::
 
-No pepperoni for my pizza, please.
+::: {.column width="60%"}
+# series
+##### [econometrics](econometric-series.html)
+This series contains a great deal of tips, tricks and packages 
+that you can use to level up your ggplot game.
 
-<img src="download.png" alt="sin-pepperoni" width="30">
+##### [climate economics](climate-economics-series.html)
+This series contains a great deal of tips, tricks and packages 
+that you can use to level up your ggplot game.
 
-<br/>
-<br/>
-<br/>
-
-
+##### [other](econometric-series.html)
+This series contains a great deal of tips, tricks and packages 
+that you can use to level up your ggplot game.
+:::

@@ -1,23 +1,12 @@
 ---
-title: "about"
-image: "yo.jpeg"
-about:
-  template: jolla
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/rafaelsacaanamunategui/
-    - icon: github
-      text: Github
-      href: https://github.com/rafasacaan
+page-layout: full
+title-block-banner: false
 ---
 
-Hello, my name is Rafa, and this is the sin-pepperoni blog.
+::: {.column width="40%"}
+# rafael sacaan amunategui
+Soy un data scientist en rehabilitación, revisitando cómo los datos nos pueden ayudar a tomar mejores decisiones, y navegar estos tiempos de incertidumbre y ruido.
+Sin pepperoni mi pizza, porfa.
 
-I started off as an electrical engineer, then deep-dived into math and optimization to tackle questions about electrical power systems, and eventually earned an MSc in operations research and data science.
-
-Since then, I've been collaborating as a data scientist, putting questions at the heart of my work, and leveraging the toolbox I've gathered along my journey to answer them.
-
-Feel free to connect and thank you for reading!
-
-
+Puedes escribirme [acá](mailto:rafasacaan@gmail.com).
+:::

@@ -1,0 +1,17 @@
+---
+title: "econometrics"
+listing:
+  contents: posts/econometrics
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, reading-time, description]
+page-layout: full
+title-block-banner: false
+footer: footer.html
+---
+::: {.column width="50%"}
+Este es un texto sobre porqué me gustaría aplicar la ciencia en algún lugar que me haga sentido.
+:::

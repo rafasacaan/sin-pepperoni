@@ -1,0 +1,37 @@
+/*-- scss:defaults --*/
+$primary:  #464646 !default;
+/*$font-family-base:  'Source Sans Pro',  'Lato', 'Merriweather', 'Roboto Regular', 'Cabin Regular' !default;*/
+$body-color: #5c5c5c !default;
+/*$headings-font-family:  'Prata', 'Roboto', 'Playfair Display', 'Montserrat'    !default;*/
+nav.navbar.navbar-expand-lg {
+    background-color: rgb(255, 255, 255);
+}
+span.navbar-title {
+    font-family: monospace;
+    color: black;
+}
+div.quarto-post.image-right {
+    border-bottom: none;
+}
+div.quarto-post.image-right {
+    display: block
+}
+div.quarto-post h3 a.no-external {
+    font-weight: 500;
+    text-underline-offset: 3px;
+    text-decoration: underline;
+}
+h5.anchored a {
+    color: green
+}
+h3.no-anchor a.no-external {
+    font-size: medium;
+    color: green
+}
+img.sidebar-logo {
+    max-width: 20%;
+}
+h1 {
+    font-family: monospace;
+    font-size: xx-large;
+}

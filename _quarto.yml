@@ -1,31 +1,30 @@
 project:
   type: website
-  output-dir: docs
 
 website:
-  title: "sin pepperoni"
-  navbar:
-    logo: download.png
-    right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/rafasacaan
-  page-footer:
-    center:
-      - text: "by rafa sacaan"
-    border: true
-  
-
-
+  title: "sinpepperoni"
+  site-url: "https://sinpepperoni.com/"
+  description: "Descubriendo la economía sin pepperoni."
+  back-to-top-navigation: true
+  sidebar:
+    logo: "download.png"
+    style: "docked"
+    search: true
+    contents:
+      - text: "About me"
+        href: about.qmd    
+      - text: "Econometrics"
+        href: econometric-series.qmd
+      - text: "Climate economics"
+        href: climate-economics-series.qmd
+  body-footer: footer.html
 format:
   html:
-    theme: litera
-    css: styles.css
-    page-layout: full
-    mainfont: serif
-    fontsize: 1.0em
-editor: visual
-
-resources:
-  - CNAME
-
+    theme: theme.scss
+    mainfont: system-ui
+    fontcolor: black
+    minimal: false
+    smooth-scroll: true
+    fontsize: 0.8em
+    grid:
+      gutter-width: 4.0rem

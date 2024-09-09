@@ -5,4 +5,21 @@
 freeze: true
 
 # Enable banner style title blocks
-title-block-banner: true
+title-block-banner: false
+
+# Author name of all blog posts
+author: 'Rafael Sacaan A.'
+
+# Table of content settings
+toc: true
+toc-depth: 3
+
+page-layout: article
+
+format:
+  html:
+    include-after-body: ../footer.html
+
+comments: 
+  utterances: 
+    repo:  RafaSacaan/blogComments 

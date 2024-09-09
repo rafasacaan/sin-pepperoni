@@ -1,9 +1,27 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/econometric-series.html",
+    "items": [
+      "/posts/econometrics/post.html",
+      "/posts/econometrics/post copy.html"
+    ]
+  },
+  {
+    "listing": "/archive.html",
     "items": [
       "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/welcome/index.html",
+      "/posts/climate-economics/post copy.html",
+      "/posts/climate-economics/post.html",
+      "/posts/econometrics/post copy.html",
+      "/posts/econometrics/post.html"
+    ]
+  },
+  {
+    "listing": "/climate-economics-series.html",
+    "items": [
+      "/posts/climate-economics/post.html",
+      "/posts/climate-economics/post copy.html"
     ]
   }
 ]
